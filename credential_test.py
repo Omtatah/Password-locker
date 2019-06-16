@@ -12,3 +12,10 @@ class TestUser(unittest.TestCase):
         Setup method to run before each test cases
         '''
         self.new_credential = Credential("twitter","tygr")
+         def test_init(self):
+        '''
+        test_init checks if the object is initialised properly
+        '''
+        self.assertEqual(self.new_credential.account_name,"twitter")
+        self.assertEqual(self.new_credential.passkey,"tygr")
+        
