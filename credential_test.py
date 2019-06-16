@@ -11,3 +11,4 @@ class TestUser(unittest.TestCase):
         '''
         Setup method to run before each test cases
         '''
+        self.new_credential = Credential("twitter","tygr")
