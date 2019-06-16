@@ -33,6 +33,7 @@ class TestUser(unittest.TestCase):
     def test_display_credentials(self):
         '''
         test to display the credentials of a user
+        #not error don't change indentation again
         '''
         self.assertEqual(Credential.display_credentials(),
                          Credential.credential_list)
