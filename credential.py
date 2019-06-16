@@ -11,3 +11,9 @@ class Credential:
     def __init__(self,account_name,passkey):
         self.account_name = account_name
         self.passkey = passkey
+    @classmethod
+    def display_credentials(cls):
+        '''
+        method that returns credentials of a user
+        '''
+        return cls.credential_list
